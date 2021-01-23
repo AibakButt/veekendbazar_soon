@@ -1,0 +1,113 @@
+body {
+  text-align: center;
+  padding: 70px 50px;
+  background: #fff;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  color: #ef6c00  ;
+  text-shadow: 0 0 20px #ef6c00   ;
+}
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+}
+
+#timer div span {
+  color: #ef6c00   ;
+  display: block;
+  font-size: .35em;
+  font-weight: 400;
+}
+
+.title-glow{
+  text-shadow: 0 0 30px #ef6c00   ;
+}
+
+ul
+{
+  list-style:none;
+}
+ul li
+{
+    float:left;
+}
+ul li i
+{
+    padding: 12px 16px;
+    color:#555;
+    border:5px solid #555; 
+    border-radius:50%;
+    margin: 5px;
+    box-sizing:border-box;
+    transition: all .2s;
+    font-size: 20px !important;
+}
+#fa-1{
+  color:#3b5999;
+  border-color:#3b5999;
+}
+#fa-2{
+  color:#25D366;
+  border-color:#25D366;
+}
+#fa-3{
+  color:#e4405f;
+  border-color:#e4405f;
+}
+
+#fa-5{
+  color:#cd201f;
+  border-color:#cd201f;
+}
+#fa-1:hover
+{
+    color:#3b5999;
+    border-color:#3b5999;
+    box-shadow: 0px 0px 25px #3b5999;
+    text-shadow: 0px 0px 25px #3b5999;
+    padding: 16px 20px;
+}
+#fa-2:hover
+{
+    color:#25D366;
+    border-color:#25D366;
+    box-shadow: 0px 0px 25px #25D366;
+    text-shadow: 0px 0px 25px #25D366;
+    padding: 16px 20px;
+}
+#fa-3:hover
+{
+    color:#e4405f;
+    border-color:#e4405f;
+    box-shadow: 0px 0px 25px #e4405f;
+    text-shadow: 0px 0px 25px #e4405f;
+    padding: 16px 20px;
+}
+
+#fa-5:hover
+{
+    color:#cd201f;
+    border-color:#cd201f;
+    box-shadow: 0px 0px 25px #cd201f;
+    text-shadow: 0px 0px 25px #cd201f;
+    padding: 16px 20px;
+}
+.d-flex{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
